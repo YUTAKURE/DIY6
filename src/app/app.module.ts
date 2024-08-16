@@ -4,21 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
-import { PersonComponent } from './components/person/person.component';
-import { PlusComponent } from './plus/plus.component';
-import { MinusComponent } from './minus/minus.component';
-import { NumberComponent } from './number/number.component';
-import { ResetComponent } from './/reset/reset.component';
+
+import { RegisterComponent } from './components/register/register.component';
+import { SecretComponent } from './components/secret/secret.component';
+import { ChildAComponent } from './components/secret/child-a/child-a.component';
+import { ChildBComponent } from './components/secret/child-b/child-b.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    PersonComponent,
-    PlusComponent,
-    MinusComponent,
-    NumberComponent,
-    ResetComponent,
-  ],
+  declarations: [AppComponent, RegisterComponent, SecretComponent, ChildAComponent, ChildBComponent],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],

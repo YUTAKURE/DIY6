@@ -1,0 +1,9 @@
+<p>Register Component</p>
+
+<div class="content">
+    <form #userForm="ngForm" (ngSubmit)="onSubmit()">
+        <input type="text" name="userName" [(ngModel)]="userName" placeholder="user name">
+        <input type="password" name="password" [(ngModel)]="password" placeholder="password">
+        <button type="submit">Submit</button>
+    </form>
+</div>

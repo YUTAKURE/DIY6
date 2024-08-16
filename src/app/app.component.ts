@@ -7,21 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-app';
-
-  count: number = 0;
-
-  plus() {
-    this.count++;
-    console.log(this.count);
-  }
-
-  minus() {
-    this.count--;
-    console.log(this.count);
-  }
-
-  reset() {
-    this.count = 0;
-    console.log(this.count);
-  }
 }

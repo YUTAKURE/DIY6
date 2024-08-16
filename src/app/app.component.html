@@ -1,37 +1,21 @@
 <style>
-  * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
 
-  main {
-    max-width: 200px;
-    height: 150px;
-    width: 100%;
-    margin: 0 auto;
-    background: rgb(166, 225, 255);
-  }
-
-  .plusminus {
-    display: flex;
-    align-items: end;
-  }
 </style>
 
 <main>
-  <h1>DIY 5-7</h1>
-  <div>
-    <h2>First input output</h2>
-    <app-number [num]="count"></app-number>
-  </div>
-  <div class="plusminus">
-    <app-plus (plusEvent)="plus()"></app-plus>
-    <app-minus (click)="minus()"></app-minus>
-  </div>
-  <div>
-    <app-reset (resetEvent)="reset()"></app-reset>
-  </div>
+  <h2>DIY 6</h2>
+  <p>Welcome!</p>
+  <ul>
+    <li>
+      <a routerLink="/register">Register Component</a>
+      <!-- <app-register></app-register> -->
+    </li>
+    <li>
+      <a routerLink="/secret">Secret Component</a>
+      <!-- <app-secret></app-secret> -->
+    </li>
+  </ul>
+
 </main>
 
 

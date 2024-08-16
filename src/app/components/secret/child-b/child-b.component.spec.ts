@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MinusComponent } from './minus.component';
+import { ChildBComponent } from './child-b.component';
 
-describe('MinusComponent', () => {
-  let component: MinusComponent;
-  let fixture: ComponentFixture<MinusComponent>;
+describe('ChildBComponent', () => {
+  let component: ChildBComponent;
+  let fixture: ComponentFixture<ChildBComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [MinusComponent]
+      declarations: [ChildBComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(MinusComponent);
+    fixture = TestBed.createComponent(ChildBComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

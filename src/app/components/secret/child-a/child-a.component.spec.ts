@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ResetComponent } from './reset.component';
+import { ChildAComponent } from './child-a.component';
 
-describe('ResetComponent', () => {
-  let component: ResetComponent;
-  let fixture: ComponentFixture<ResetComponent>;
+describe('ChildAComponent', () => {
+  let component: ChildAComponent;
+  let fixture: ComponentFixture<ChildAComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ResetComponent]
+      declarations: [ChildAComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ResetComponent);
+    fixture = TestBed.createComponent(ChildAComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

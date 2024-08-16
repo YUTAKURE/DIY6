@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PlusComponent } from './plus.component';
+import { SecretComponent } from './secret.component';
 
-describe('PlusComponent', () => {
-  let component: PlusComponent;
-  let fixture: ComponentFixture<PlusComponent>;
+describe('SecretComponent', () => {
+  let component: SecretComponent;
+  let fixture: ComponentFixture<SecretComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [PlusComponent]
+      declarations: [SecretComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(PlusComponent);
+    fixture = TestBed.createComponent(SecretComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
